@@ -1,0 +1,61 @@
+.headergroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px 0 16px;
+  gap: 16px;
+  position: fixed;      /* Change from sticky to fixed */
+  top: 0;               /* Stick to the top */
+  left: 0;
+  right: 0;
+  z-index: 1000;        /* Ensure it stays above other content */
+  background: #fff;     /* Prevents transparency over content */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04); /* Optional: subtle shadow */
+  margin: 20px 0px;
+
+}
+.logo{
+  font-size: 40px;
+
+}
+.logogroup{
+  display:flex;
+  align-items: center;
+  padding-left: 7px;
+}
+.logogroup p {
+  margin: 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+.searchbar {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  overflow: hidden;
+  width: 50%;
+  min-width: 220px;
+  max-width: 500px;
+  background: #fff;
+}
+.searchlogo{
+  border-radius: 0 !important;
+}
+.searchbox {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 0;
+  flex: 1;
+}
+
+.watchlater {
+  margin-right: 8px;
+  padding: 8px 16px !important; /* Add vertical and horizontal padding */
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}

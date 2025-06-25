@@ -1,0 +1,39 @@
+.rcol{
+  padding:15px;
+  
+  
+}
+.rcol:hover{
+  background-color: rgb(234, 234, 234);
+}
+.thumbnail {
+  width: 100%;     
+  height: 200px;   
+  object-fit: cover;
+  border-radius: 8px;
+}
+.thumbnail:hover{
+  cursor: pointer;
+}
+.viewdate{
+  display: flex;
+  gap: 12px; /* space between views and uploadTime */
+  margin-top: 4px;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  font-size: 15px;
+}
+.information p{
+  margin: 0;
+}
+.videotitle{
+  font-size: 20px;
+}
+.buttons{
+  display:flex;
+  gap: 20px;
+  margin-top: 5px;
+}
